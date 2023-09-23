@@ -3,7 +3,7 @@ public class Reverse_String {
         char[] letters = new char[s.length()];
         int index = 0;
         for (int i = s.length() - 1; i >= 0; i--) {
-            letters[index] = letters[i];
+            letters[index] = s.charAt(i);
             index++;
         }
         String out = "";
